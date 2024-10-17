@@ -7,7 +7,7 @@ import static camp.nextstep.edu.missionutils.test.Assertions.assertSimpleTest;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
-class ApplicationTest extends NsTest {
+class ApplicationTest extends NsTest { 
     @Test
     void 공백입력() {
         assertSimpleTest(() -> {
